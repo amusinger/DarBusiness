@@ -3,7 +3,7 @@ body{
 	box-sizing: border-box; 
 }
 section{
-	/* padding: 50px; */
+	
 }
 .theme-blue{
 	background: blue -webkit-radial-gradient(left top,circle cover,rgb(12,180,206),rgb(6,116,236) 100%);
@@ -23,20 +23,25 @@ section{
 h1 { 
 	font-size: 2.3em; 
 	line-height: 1em;
- }
+}
+
 h2 { 
 	font-size: 1.9em; 
 	text-align: center;
 }
+
 h3 { font-size: 1.6em; }
+
 h4{
 	font-size: 1.5em;
 }
+
 h5 { font-size: 1.4em; }
 h6 { font-size: 1.2em; }
 p{
 	font-size: 1em;
 }
+
 .separator{
 	border-color: #0cb4ce;
 	width: 80px;
@@ -55,20 +60,19 @@ p{
 /* 	background-image: url('../img/ppl5.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 5%;
-
-	
+    padding: 5%;	
 }
 
 
 #fullscreen .container .row{
 	padding: 5%;
 }
+
 .intro_text{
 	text-align: center;
 	padding: 50px;
-
 }
+
 .header-img img{
 	float: right;
 	max-height: 450px;
@@ -84,6 +88,7 @@ p{
 #video_block{
 	 padding: 50px;
 }
+
 .thumbnail{
 	border-radius: 0px;
 }
@@ -133,8 +138,6 @@ p{
 #benefits p{
 /* 	padding: 5px; */
 }
-
-
 /* Features*/
 
 #features{
@@ -175,9 +178,6 @@ p{
   float: none;
   vertical-align: middle;
 }
-
-
-
 /* DOWNLOAD BLOCK*/
 #download_block{
 	 padding: 25px; 
@@ -291,8 +291,6 @@ p{
  	 padding: 30px;
 }
 
-
-
 /**SOCIAL**/
 
 #social_links{
@@ -318,7 +316,6 @@ p{
 	}
 }
 
-/**parallax**/
 
 
 @media(max-width: 767px){
@@ -326,6 +323,7 @@ p{
 	.phone{
 		display: none !important;
 	}
+
 	#hidden-mobile{
 		display: none !important;
 
@@ -339,21 +337,20 @@ p{
 			padding-left: 10px;
 	}
 }
+
 @media (max-width: 991px) {
   
   .features-section-1 .features-image {
     margin-top: 50px;
     margin-bottom: 50px;
   }
+
   .vertical-middle {
     display: block !important;
   }
   
 }
 
-@media (min-width: 1025px){
-
-}
 
 @media(min-width: 768px) and (max-width: 815px){
 	.appPlay{
@@ -362,12 +359,10 @@ p{
 }
 
 
-
 @media(min-width: 1202px) and (max-width: 1230px){
 		.appPlay{
 	padding-right: 20px;
-}
-
+	}
 }
 
 
